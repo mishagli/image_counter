@@ -1,13 +1,13 @@
 # image_counter
 
-A simple algorithm for detecting imagies in black and white pictures.
+A simple algorithm for detecting imagies in black and white pictures. The solution relies only on built-in python data structures such as `list` and `tuple`. The matrix is represented via `numpy.array()` method.
 
 The following assumtions are made:
 - Pictures are given by matrices in form of ones and zeros
 - White pixels are zeros, and black pixels are ones.
 - A black image in this case is any cluster of ones in a matrix
 - - a cluster should be all surrounded by zeros (white pixels)
-- - if a cluster has onye one black pixel it is still counter as an image.
+- - if a cluster has only one black pixel it is still counter as an image.
 
 
 ## High-level description of the algorithm
